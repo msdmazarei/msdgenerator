@@ -162,7 +162,8 @@ namespace MsdGenerator
             string dvsnam = dvsname(dvs, u);
            
             rtn = string.Format(@"var {0} = AbbasiAdmin.GetGeneralDVS(this.ViewContext, {1}, {2}, formName: ApplicationStatics.T(""{3}""));", 
-                dvsnam,formname(dvs.Form,u),GridName(dvs.Grid,u),dvs.Form.FormTitle);
+                dvsnam,formname(dvs.Form,u),GridName(dvs.Grid,u),dvs.Form.FormTitle)+newline;
+            rtn += string.Format(@" {0}.PageTitle = ""{1}"";", dvsnam,dvs.DVSTitle)+newline;
             return rtn;
         }
         string FormGrid()

@@ -50,6 +50,8 @@
             this.BtnManageModel = new System.Windows.Forms.Button();
             this.btnsave = new System.Windows.Forms.Button();
             this.btnManageDetailModel = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDVSTitle = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -63,13 +65,16 @@
             // 
             // lstDetails
             // 
+            this.lstDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstDetails.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
             this.lstDetails.FullRowSelect = true;
-            this.lstDetails.Location = new System.Drawing.Point(13, 201);
+            this.lstDetails.Location = new System.Drawing.Point(13, 229);
             this.lstDetails.Name = "lstDetails";
-            this.lstDetails.Size = new System.Drawing.Size(492, 228);
+            this.lstDetails.Size = new System.Drawing.Size(492, 269);
             this.lstDetails.TabIndex = 61;
             this.lstDetails.UseCompatibleStateImageBehavior = false;
             this.lstDetails.View = System.Windows.Forms.View.Details;
@@ -258,11 +263,28 @@
             this.btnManageDetailModel.UseVisualStyleBackColor = true;
             this.btnManageDetailModel.Click += new System.EventHandler(this.btnManageDetailModel_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 193);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(30, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Title:";
+            // 
+            // txtDVSTitle
+            // 
+            this.txtDVSTitle.Location = new System.Drawing.Point(90, 193);
+            this.txtDVSTitle.Name = "txtDVSTitle";
+            this.txtDVSTitle.Size = new System.Drawing.Size(176, 20);
+            this.txtDVSTitle.TabIndex = 64;
+            // 
             // frmMenuDVS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 441);
+            this.ClientSize = new System.Drawing.Size(517, 510);
+            this.Controls.Add(this.txtDVSTitle);
             this.Controls.Add(this.btnsave);
             this.Controls.Add(this.btnManageDetailModel);
             this.Controls.Add(this.BtnManageModel);
@@ -279,6 +301,7 @@
             this.Controls.Add(this.btnDetailSave);
             this.Controls.Add(this.lstDetails);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -315,5 +338,7 @@
         private System.Windows.Forms.Button BtnManageModel;
         private System.Windows.Forms.Button btnsave;
         private System.Windows.Forms.Button btnManageDetailModel;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtDVSTitle;
     }
 }

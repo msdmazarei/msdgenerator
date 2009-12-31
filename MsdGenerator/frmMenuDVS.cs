@@ -46,7 +46,7 @@ namespace MsdGenerator
                     .ToList()
                     .ForEach(x => {
                         if (Main.Master.DS != null && Main.Master.DS.Model != null) 
-                        addnewDetailDvs(Main.Master.DS.Model.GetPropertyByName(x.DS.propertyname), x.DS.Profile);
+                        addnewDetailDvs(Main.Master.DS.Model.GetPropertyByName(x.DS.propertyname), x.DS.Profile,x.DVSTitle);
                         lstDetails.Items[lstDetails.Items.Count - 1].Tag = x;
                     });
 
@@ -194,17 +194,17 @@ namespace MsdGenerator
                  ; 
 
         }
-        void addnewDetailDvs(Property p , Profile pr)
+        void addnewDetailDvs(Property p , Profile pr,string dvstitle)
         {
             ListViewItem li = new ListViewItem();
             li.Text = p.PropertyName;
             li.SubItems.Add(pr.Name);
             li.Tag = new DVS() { DS = new DataSource() { Profile = pr, Model = p.TargetModel, 
-                propertyname = p.PropertyName} };
+                propertyname = p.PropertyName}, DVSTitle=dvstitle };
             lstDetails.Items.Add(li);
             
         }
-        void correctli(ListViewItem li, Property p, Profile pr
+        void correctli(ListViewItem li, Property p, Profile pr,string dvstitle
             )
         {
             li.SubItems.Clear();
@@ -214,6 +214,7 @@ namespace MsdGenerator
             dvs.DS.Profile = pr;
             dvs.DS.propertyname = p.PropertyName;
             dvs.DS.Model = p.TargetModel;
+            dvs.DVSTitle = dvstitle;
             li.Tag = dvs;
             if (li.Index > -1)
                 lstDetails.Items[li.Index] = li;
@@ -237,12 +238,12 @@ namespace MsdGenerator
                 if (existli != null)
                 {
                     //exits item
-                    correctli(existli, selectedProperty, selectedProfile);
+                    correctli(existli, selectedProperty, selectedProfile,txtDVSTitle.Text);
                 }
                 else
                 {
                     //new item
-                    addnewDetailDvs(selectedProperty, selectedProfile);
+                    addnewDetailDvs(selectedProperty, selectedProfile,txtDVSTitle.Text);
                     if (Main.Details == null)
                         Main.Details = new List<DVS>();
                     Main.Details.Add((DVS)lstDetails.Items[lstDetails.Items.Count - 1].Tag);
@@ -259,7 +260,7 @@ namespace MsdGenerator
             
             cboDetailProperty.SelectedItem = ((Model)cboMasterModel.SelectedItem).GetPropertyByName(dvs.DS.propertyname);
             cboDetailProfile.SelectedItem = dvs.DS.Profile;
-
+            txtDVSTitle.Text = dvs.DVSTitle;
 
         }
         private void lstDetails_SelectedIndexChanged(object sender, EventArgs e)

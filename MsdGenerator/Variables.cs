@@ -741,6 +741,7 @@ namespace MsdGenerator
     [Serializable]
     public class DVS
     {
+        public string DVSTitle { get; set; }
         public string DVSName { get; set; }
         public DataSource DS { get; set; }
         public MsdForm Form { get; set; }
