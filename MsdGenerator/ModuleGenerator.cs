@@ -43,13 +43,25 @@ namespace MsdGenerator
             Variables.writeToFile("Modules\\" + modu.ModuleName + "_MetaModelMap.cs", MetaModelMap(modu));
             Variables.writeToFile("Modules\\Areas\\" + modu.ModuleName + "\\Controllers\\" + modu.ModuleName + "Controller.cs", Controller(modu));
 
-
+            string MenuGeneration = string.Format(@"
+ mnuModu = new MenuItem() {{ EnName = ""{0}"", Title = ""{0}"" }};
+            mnuModu.Save();
+            gpmn = new GroupMenu() {{ Menu = mnuModu, Group = admingroup }};
+            gpmn.Save();
+",modu.ModuleName);
         
             if (modu.Menus != null)
                 modu.Menus.ToList()
                     .ForEach(
                     x =>
                     {
+                        MenuGeneration += string.Format(@"
+            mnu = new MenuItem() {{ ParentID = mnuModu.id, Title = ""{0}"", EnName = ""{0}"", 
+MethodToCall = ""\""AddTab('{0}','/{1}/{1}/{0}')\"""" }};
+            mnu.Save();
+            gpmn = new GroupMenu() {{ Menu = mnu, Group = admingroup }};
+            gpmn.Save();
+", x.MenuName,modu.ModuleName);
                         Variables.writeToFile("Modules\\Areas\\" + modu.ModuleName + "\\Views\\" + modu.ModuleName + "\\" + x.MenuName + ".cshtml", View(GenerateObjs, modu, x));
                         //fs = new FileStream("Modules\\Areas\\" + modu.ModuleName + "\\Views\\"+modu.ModuleName+"\\" + x.MenuName + ".cshtml", FileMode.Create);
                         //buf = f(View(GenerateObjs,modu,x));
@@ -57,7 +69,9 @@ namespace MsdGenerator
                         //fs.Close();
                     }
                     );
+            Variables.writeToFile("Modules\\Areas\\" + modu.ModuleName  + "\\menugen.cs", MenuGeneration);
         }
+     
         const string newline = "\r\n";
         static List<string> Usings(List<DataSource> dses)
         {
