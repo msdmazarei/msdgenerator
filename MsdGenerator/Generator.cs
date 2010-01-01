@@ -111,7 +111,8 @@ namespace MsdGenerator
                             //Collection
                             var propertytypemodel = Variables.GetModel(p.PropertyTypeNameSpace,p.PropertyType);
                             if(propertytypemodel==null) 
-                                throw new Exception("property type is null!!!! and can not detect which type used here");
+
+                                throw new Exception("property type is null!!!! and can not detect which type used here, Class:"+p.Model.ClassName+", Property:"+p.PropertyName+", Type:"+p.PropertyTypeNameSpace+"."+p.PropertyType);
 
                             rtn =
                                 string.Format(
@@ -787,7 +788,7 @@ namespace MsdGenerator
                     );
 
             rtn += "}" + newline;
-            //rtn += "}" + newline;
+            rtn += "}" + newline;
             return rtn;
         }
     }

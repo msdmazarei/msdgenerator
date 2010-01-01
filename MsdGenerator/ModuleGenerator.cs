@@ -200,7 +200,7 @@ get{{
                 {3} id;
                 if (selectedid != null)
                     if ({3}.TryParse(selectedid, out id))
-                        return {4}.GetByPK(id);
+                        return {4}.ByPK(id);
                 return new {0}();
  
 }}

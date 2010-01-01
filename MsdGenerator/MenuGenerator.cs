@@ -75,6 +75,7 @@ namespace MsdGenerator
      true,
      {10}
    );
+{0}.MsdManageUrl = ""/{11}/{11}/{2}"";
    
 ",
  SelectItemName(form.DVS,x,u)/*{0} FormItem Name*/,
@@ -87,7 +88,8 @@ namespace MsdGenerator
  x.optionalDS.Model.PrimaryKey().PropertyName/*Value Field{7}*/,
  "null"/*{8} selectitemproperties*/,
  DSName(x.optionalDS, UsageLocation.FormItem)/*{9} DataSource Name*/,
- fieldstodisp/*{10} picklist Fields*/
+ fieldstodisp/*{10} picklist Fields*/,
+ Module.ModuleName
 );
                     }
                     );
