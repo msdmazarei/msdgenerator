@@ -1,0 +1,66 @@
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe.config
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.pdb
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.csprojResolveAssemblyReference.cache
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Form1.resources
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Properties.Resources.resources
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.csproj.GenerateResource.Cache
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.exe
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.pdb
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClass.resources
+c:\users\mazarei\documents\visual studio 2012\Projects\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmProperty.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe.config
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.exe
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.pdb
+D:\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe
+D:\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.pdb
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Form1.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClass.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmProperty.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Properties.Resources.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.csproj.GenerateResource.Cache
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClassCopy.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAddInterMediate.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.UserControls.PickModelProperty.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmCondition.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAddRepository.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmRepositories.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmProfiles.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmDFS.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmPropertyDFSLst.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAEPropertyDescriptor.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmPropDescriptors.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClassProfiles.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMenus.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmModule.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMenuDVS.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMsdForm.resources
+D:\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmGrid.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe.config
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.exe
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\bin\Debug\MsdGenerator.pdb
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.csprojResolveAssemblyReference.cache
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Form1.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAddInterMediate.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAddRepository.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmAEPropertyDescriptor.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClass.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClassCopy.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmClassProfiles.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmCondition.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmDFS.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmGrid.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMenuDVS.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMenus.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmModule.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmMsdForm.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmProfiles.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmPropDescriptors.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmProperty.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmPropertyDFSLst.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.frmRepositories.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.Properties.Resources.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.UserControls.PickModelProperty.resources
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.csproj.GenerateResource.Cache
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.exe
+C:\srcs\MsdGenerator\MsdGenerator\MsdGenerator\obj\Debug\MsdGenerator.pdb
