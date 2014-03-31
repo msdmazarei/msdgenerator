@@ -402,7 +402,7 @@ var {0}= AbbasiAdmin.GetGeneralListGrid(ID: this.CID(""{0}""), Datasource: new I
                         if (detail.Form != null && detail.Form.FormItems != null && detail.Form.FormItems.Count > 0)
                             detail.Form.FormItems.ToList().ForEach(x =>
                             {
-                                if (!isExisted(x.optionalDS, UsageLocation.FormItem))
+                                if ((x.optionalDS!=null)&& !isExisted(x.optionalDS, UsageLocation.FormItem))
                                 {
                                     rtn += string.Format(@"
                         var {2}= model.GenDS(
